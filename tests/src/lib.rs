@@ -20,8 +20,8 @@ pub use bus::MockAgentBus;
 pub use clock::{Clock, MockClock, SystemClock};
 pub use fixtures::{fixture_path, fixtures_root, load_fixture};
 pub use report::{
-    JsonFormatter, ReportFormatter, TestCaseResult, TestReport, TestReportBuilder, TestStatus,
-    TextFormatter,
+    JsonFormatter, MarkdownFormatter, ReportFormatter, TestCaseResult, TestReport,
+    TestReportBuilder, TestStatus, TextFormatter,
 };
 pub use scenario::{
     BusExpectation, BusScenarioSpec, ClockScenarioSpec, LlmFailureSpec, LlmResponseRule,
